@@ -30,6 +30,7 @@ jfrog config add
 ## Ansible step 
 ```bash
 sudo apt install software-properties-common -Y
-sudo apt-get install ansible -y
+sudo apt-get install pip
+sudo -H pip3 install ansible
 ansible --version
 ```
